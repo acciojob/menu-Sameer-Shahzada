@@ -26,7 +26,7 @@ const Menu = ({ menu, filterItems }) => {
                     <div
                         key={item.id}
                         className="menu-item"
-                        data-testid={`menu-item-${item.category}`}
+                        data-test-id={`menu-item-${item.category}`} 
                     >
                         <img src={item.img} alt={item.title} className="photo" />
 
